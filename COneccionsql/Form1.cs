@@ -19,7 +19,7 @@ namespace COneccionsql
         }
 
         // declarar la cadema de concexion para conectarse con sql server 
-        static private string cadena = "server=dataepis.uandina.pe,49157;Database=BDAcademicoCamacho;User Id=camachof;Password=C@m@ch02480;";
+        static private string cadena = "server=dataepis.uandina.pe,49157;Database=BDAcademicoCamacho;User Id=;Password=;";
         //empaquetar la llave de conexion para enviarlo al SQL server
         static private SqlConnection conexion = new SqlConnection(cadena);
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
